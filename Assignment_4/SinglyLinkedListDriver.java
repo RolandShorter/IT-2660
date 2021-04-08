@@ -17,6 +17,9 @@ public class SinglyLinkedListDriver {
             }
             System.out.println("Added 5 items: ");
             System.out.println(ll);
+            System.out.println("----- Recursive---");
+            ll.printList();
+            System.out.println("-----");
 
             System.out.println("Adding item at position 2");
             ll.add(2, 2.5);
@@ -52,6 +55,8 @@ public class SinglyLinkedListDriver {
         }
         System.out.println("List is now:");
         System.out.println(ll);
+        
+
 
     }
 }

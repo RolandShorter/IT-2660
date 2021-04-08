@@ -100,4 +100,18 @@ public class SinglyLinkedList<T> {
         }
         return sb.toString();
     }
+
+    public void printList() {         // public method
+        printList(head);
+    }
+    private void printList(Node node) {    // private recursive method
+        if (node != null) {
+            System.out.println(node.data);
+            printList(node.next);
+        }
+
+
+    }
+
+
 }
