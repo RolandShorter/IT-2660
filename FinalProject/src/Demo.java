@@ -10,7 +10,7 @@ public class Demo {
     Vertex start, target;
     Vertex[] vertices;
     public static final int MAX_VERTICES = 10;
-    public static final int MAX_VALUE = 100;
+    public static final int MAX_VALUE = 1000;
     public static final int MAX_CONNECTIONS = 5;
     public static final Random rnd = new Random(Instant.now().getEpochSecond());
 
